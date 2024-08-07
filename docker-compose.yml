@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    networks:
+      - hola-mundo-net
+    container_name: servidor_apache
+
+networks:
+  hola-mundo-net:
+    driver: bridge
