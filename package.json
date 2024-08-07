@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Práctica final de DevOps con CI/CD",
   "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
+ "scripts": {
+  "test": "jest",
+  "build": "node app.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
