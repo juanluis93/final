@@ -1,7 +1,7 @@
 {
-  "name": "devops-practice",
+  "name": "Ultima",
   "version": "1.0.0",
-  "description": "Práctica final de DevOps con CI/CD",
+  "description": "Práctica final ",
   "main": "index.js",
  "scripts": {
   "test": "jest",
