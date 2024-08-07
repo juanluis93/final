@@ -38,10 +38,11 @@ jobs:
           CI: true
       - name: Build application
         run: npm run build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: build
+      - name: Upload Pages Artifact
+  uses: actions/upload-pages-artifact@v1
+  with:
+    # Path of the directory containing the deployable content.
+    path: ./build
 
   # Deployment job
   deploy:
